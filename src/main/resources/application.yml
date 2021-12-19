@@ -1,0 +1,32 @@
+datadump.location:
+  authors: C:\Users\alexs\Desktop\cct\MyProjects\Book tracker app\test-authors.txt
+  works: C:\Users\alexs\Desktop\cct\MyProjects\Book tracker app\test-works.txt
+
+spring:
+  data:
+    cassandra:
+      keyspace-name: main
+      username: lBusZQbkBQbUoFcWFChRjyST
+      password: 6h_ZU_KHWHhKas63DC40wDMMEELkrHZ2j+DCRD1h5Crbco6dsAFmvfuWJygWjkyRyau9CdnB3oUNZi_3AH00fuA5u.IMPc0XP2dmSzTsjSqI7QPBdnucuLrH5wpLmZDx
+      schema-action: recreate
+      request:
+        timeout: 20s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+
+
+
+datastax.astra:
+  secure-connect-bundle: secure-connect.zip
+
+
+astra.db:
+    id: f9c3ca28-635d-41cd-9152-07b10dc7093d-1
+    region: us-west1
+    keyspace: main
+    application.token: AstraCS:lBusZQbkBQbUoFcWFChRjyST:55a12073680e4ffa4e0f9305f13aaa044b15a1352e61a97dfa5bb659fe50b2cd
+
+
+
+
