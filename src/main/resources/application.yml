@@ -8,7 +8,7 @@ spring:
       keyspace-name: main
       username: lBusZQbkBQbUoFcWFChRjyST
       password: 6h_ZU_KHWHhKas63DC40wDMMEELkrHZ2j+DCRD1h5Crbco6dsAFmvfuWJygWjkyRyau9CdnB3oUNZi_3AH00fuA5u.IMPc0XP2dmSzTsjSqI7QPBdnucuLrH5wpLmZDx
-      schema-action: recreate
+      schema-action: create-if-not-exists
       request:
         timeout: 20s
       connection:
